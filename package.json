@@ -1,0 +1,30 @@
+{
+  "name": "dam1m04-exercici301",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melisbethrojas-ui/DAM1M04-Exercici301.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/melisbethrojas-ui/DAM1M04-Exercici301/issues"
+  },
+  "homepage": "https://github.com/melisbethrojas-ui/DAM1M04-Exercici301#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+  
+}
+

@@ -1,0 +1,25 @@
+{{> header}}
+
+<h1>{{title}}</h1>
+<h2>{{subtitle}}</h2>
+
+<ul>
+  {{#each cities}}
+    <li>
+      <strong>{{name}}</strong> ({{lookup ../countries country}})  
+      — Població: {{population}}
+
+      {{#if coastal}}
+        🌊 Costanera
+      {{else}}
+        Interior
+      {{/if}}
+
+      {{#if (lte population ../threshold)}}
+        — <span style="color:green;">Petita</span>
+      {{else}}
+        — <span style="color:blue;">Gran</span>
+      {{/if}}
+    </li>
+  {{/each}}
+</ul>
