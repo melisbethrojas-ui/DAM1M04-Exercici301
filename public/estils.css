@@ -1,12 +1,27 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+}
+
+header {
+  background: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 
 header nav a {
-  margin-right: 10px;
+  margin-right: 15px;
   text-decoration: none;
   color: #333;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #0077cc;
 }
 
 strong {
